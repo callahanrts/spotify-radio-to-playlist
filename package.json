@@ -24,5 +24,7 @@
   "bugs": {
     "url": "https://github.com/callahanrts/spotify-radio-to-playlist/issues"
   },
-  "homepage": "https://github.com/callahanrts/spotify-radio-to-playlist"
+  "homepage": "https://github.com/callahanrts/spotify-radio-to-playlist",
+  "preferGlobal": "true",
+  "bin": { "radio-to-playlist": "spotify.js" }
 }

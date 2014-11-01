@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var spotify = require('spotify-node-applescript');
 var fs = require('fs');
 
