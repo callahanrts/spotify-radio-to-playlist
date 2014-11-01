@@ -1,6 +1,6 @@
 {
   "name": "spotify-radio-to-playlist",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Create playlists with songs from your favorite Spotify radio stations.",
   "main": "spotify.js",
   "dependencies": {
