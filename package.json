@@ -26,5 +26,5 @@
   },
   "homepage": "https://github.com/callahanrts/spotify-radio-to-playlist",
   "preferGlobal": "true",
-  "bin": { "radio-to-playlist": "spotify.js" }
+  "bin": { "radio-to-playlist": "./spotify.js" }
 }
