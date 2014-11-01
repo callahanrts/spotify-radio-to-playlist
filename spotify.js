@@ -5,8 +5,8 @@ var fs = require('fs');
 
 songs = [];
 args = process.argv.splice(2);
-filepath = args[args.indexOf("-f") + 1];
-count = args[args.indexOf("-c") + 1];
+filepath = args[args.indexOf("-f") + 1] || '~/Desktop/songs.txt';
+count = args[args.indexOf("-c") + 1] || 10;
 
 save_songs(count, 0, songs, filepath);
 function save_songs(count, counter, songs, filepath) {
