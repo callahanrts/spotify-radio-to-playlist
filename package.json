@@ -1,6 +1,6 @@
 {
   "name": "spotify-radio-to-playlist",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Create playlists with songs from your favorite Spotify radio stations.",
   "main": "spotify.js",
   "dependencies": {
@@ -26,5 +26,7 @@
   },
   "homepage": "https://github.com/callahanrts/spotify-radio-to-playlist",
   "preferGlobal": "true",
-  "bin": { "radio-to-playlist": "./spotify.js" }
+  "bin": {
+    "radio-to-playlist": "./spotify.js"
+  }
 }
