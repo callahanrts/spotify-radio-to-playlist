@@ -5,10 +5,15 @@ var fs = require('fs');
 
 songs = [];
 args = process.argv.splice(2);
-filepath = args[args.indexOf("-f") + 1] || '~/Desktop/songs.txt';
-count = args[args.indexOf("-c") + 1] || 10;
+filepath = args[args.indexOf("-f") + 1];
+count = parseInt(args[args.indexOf("-c") + 1]);
 
-save_songs(count, 0, songs, filepath);
+if(typeof filepath == "string" && typeof count == "number") {
+  save_songs(count, 0, songs, filepath);
+} else {
+  console.log("Missing parameters. Try `radio-to-playlist -f {filepath} -c {count}`");
+}
+
 function save_songs(count, counter, songs, filepath) {
   if(counter < count){
     spotify.getTrack(function(err, track){
