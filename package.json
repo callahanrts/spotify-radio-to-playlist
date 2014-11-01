@@ -1,0 +1,28 @@
+{
+  "name": "spotify-radio-to-playlist",
+  "version": "1.0.0",
+  "description": "Create playlists with songs from your favorite Spotify radio stations.",
+  "main": "spotify.js",
+  "dependencies": {
+    "spotify-node-applescript": "^0.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/callahanrts/spotify-radio-to-playlist"
+  },
+  "keywords": [
+    "spotify",
+    "radio",
+    "playlist"
+  ],
+  "author": "Cody Callahan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/callahanrts/spotify-radio-to-playlist/issues"
+  },
+  "homepage": "https://github.com/callahanrts/spotify-radio-to-playlist"
+}
